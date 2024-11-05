@@ -13,3 +13,12 @@ For wide layers, the weight norm variance continuously increases until convergen
 ![image](illustration.png)
 
 Experiments are conducted over various architectures and datasets to verify our observation. We will provide codes we use to track the weight variance during training.
+
+
+# Quick Start
+
+We provide an example in `awd-lstm-lm-master` modified from the repo [awd-lstm-lm](https://github.com/salesforce/awd-lstm-lm). In `main.py`, from line 330-430, we calculate the channel norm variance and plot it. By changing the `nhid` argument, different patterns could be observed.
+
+# Code Update on the Way
+
+Other codes will be combed and updated soon.
